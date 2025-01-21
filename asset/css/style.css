@@ -104,6 +104,7 @@ header {
 
 .card-container {
     padding-top: 3rem;
+    padding-bottom: 3rem;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 1rem;
@@ -156,6 +157,7 @@ header {
         }
 
         .name {
+            text-transform: uppercase;
             font-weight: 1000;
         }
 
@@ -188,7 +190,15 @@ header {
         }
     }
 
-
 }
 
 /* #endregion main*/
+
+/* region footer*/
+
+footer {
+    height: 110px;
+    background-color: var(--bd-prymary-dark);
+}
+
+/* #endregion footer*/
