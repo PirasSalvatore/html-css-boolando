@@ -131,16 +131,18 @@ header {
             }
         }
 
+        .tag {
+            bottom: 50px;
+            gap: 1rem;
+        }
+
         .discount {
             background-color: var(--bd-prymary-allert);
-            bottom: 50px;
             padding: 0.3rem 0.5rem;
         }
 
         .sostenibility {
             background-color: var(--bd-secondary-allert);
-            bottom: 50px;
-            left: 60px;
             padding: 0.3rem 0.5rem;
         }
 
