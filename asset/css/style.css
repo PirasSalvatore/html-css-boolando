@@ -199,6 +199,42 @@ header {
 footer {
     height: 110px;
     background-color: var(--bd-prymary-dark);
+    color: var(--bd-prymary-lighter);
+
+    .fmenu {
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .creator {
+        font-size: 25px;
+        padding: 0.5rem 0;
+    }
+
+    .info {
+        gap: 1rem;
+
+        a {
+            color: var(--bd-prymary-lighter);
+        }
+
+
+    }
+
+    .contacts {
+
+        .icons {
+            padding-top: 0.5rem;
+            justify-content: space-between;
+            gap: 0.2rem;
+
+            i {
+                font-size: 20px;
+            }
+        }
+    }
 }
 
 /* #endregion footer*/
