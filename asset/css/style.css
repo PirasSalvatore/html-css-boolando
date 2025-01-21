@@ -79,9 +79,16 @@ body {
 /* #region header */
 
 header {
+    position: fixed;
+    z-index: 3;
     width: 100%;
     height: 70px;
     background-color: var(--bd-primary-coloror);
+
+}
+
+main {
+    padding-top: 3rem;
 }
 
 .nmenu {
