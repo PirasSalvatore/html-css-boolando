@@ -57,6 +57,18 @@ body {
     text-decoration: none;
 }
 
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
 
 /* #endregion Utility */
 
@@ -86,6 +98,7 @@ header {
 /* #endregion header */
 
 /* #region main*/
+
 .card-container {
 
     padding-top: 3rem;
@@ -94,13 +107,62 @@ header {
     gap: 1rem;
 
     .card {
-        width: 460px;
-        height: 720px;
+
+        .prevew {
+            width: 460px;
+        }
+
+        div.love {
+            width: 50px;
+            height: 50px;
+            background-color: var(--bd-prymary-lighter);
+
+            top: 10px;
+            right: 0px;
+
+            .heart {
+                font-size: 30px;
+            }
+        }
+
+        .discount {
+            background-color: var(--bd-prymary-allert);
+            bottom: 50px;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .sostenibility {
+            background-color: var(--bd-secondary-allert);
+            bottom: 50px;
+            left: 60px;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .discount,
+        .sostenibility {
+            color: var(--bd-prymary-lighter);
+        }
     }
 
     .second {
         display: none;
     }
+
+    img {
+        width: 100%;
+    }
+
+    .prevew:hover {
+
+        .first {
+            display: none;
+        }
+
+        .second {
+            display: block;
+        }
+    }
+
 
 }
 
